@@ -10,24 +10,13 @@ export default class About extends React.Component {
     const aboutText = (
       <div>
         <p>
-          I’m currently a fourth-year Aerospace Engineering Honors student at the{" "}
-          <span style={{ color: "#bb5826" }}>
-            University of Texas at Austin
-          </span>
-          , and I will also be minoring in Business. My interest in photography and videography, as well as my fascination with human behavior, has
-          driven me to concentrate on artificial intelligence Aerospace
-          Engineering. I am currently an intern on the Robotarium team of the Autonomy for Hypersonics group at{" "}
-          <span style={{ color: "#00add0" }}>Sandia National Labs</span>.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p>
-          I made my first website from scratch when I was 9, and I’ve been
-          building on web development skills ever since. I’m also interested in
-          machine learning / deep learning / reinforcement learning applications in Aerospace, so you should be seeing some
-          more projects related to that in my Work section soon.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p>
-          If you’d like to chat with me, feel free to email me at{" "}
-          <span style={{ color: "#374457" }}>kadhirus99@gmail.com</span>.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
     )
@@ -42,30 +31,30 @@ export default class About extends React.Component {
               size='normal'
               date='Get in touch with me'
               details={[
-                [<Icon name='mail' circular />, " kadhirus99@gmail.com"],
+                [<Icon name='mail' circular />, " loremus99@gmail.com"],
                 [
                   <Icon name='linkedin' circular />,
                   <a
-                    href='https://www.linkedin.com/in/kadhirus99/'
+                    href='https://www.linkedin.com/in/loremus99/'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     {" "}
-                    /in/kadhirus99/
+                    /in/loremus99/
                   </a>
                 ],
                 [
                   <Icon name='facebook' circular />,
                   <a
-                    href='https://www.facebook.com/kadhir1999'
+                    href='https://www.facebook.com/lorem1999'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     {" "}
-                    /kadhir1999
+                    /lorem1999
                   </a>
                 ],
-                [<Icon name='snapchat ghost' circular />, "kadhirus99"]
+                [<Icon name='snapchat ghost' circular />, "loremus99"]
               ]}
               noBullets={true}
             />
@@ -80,38 +69,38 @@ export default class About extends React.Component {
           <div className='about-content'>
             <div className='about-table'>
               <div style={{ paddingRight: "5em" }}>{aboutText}</div>
-              <img id='header-image' src={img1} /> <br />
+              <img id='header-image' src='https://via.placeholder.com/300' /> <br />
             </div>
             <ProjectCard
               title='Contact Information'
               size='normal'
               date='Get in touch with me'
               details={[
-                [<Icon name='mail' circular />, " kadhirus99@gmail.com"],
+                [<Icon name='mail' circular />, " loremus99@gmail.com"],
                 [
                   <Icon name='linkedin' circular />,
                   <a
-                  href='https://www.linkedin.com/in/kadhirus99/'
+                  href='https://www.linkedin.com/in/loremus99/'
                     target='_blank'
                     rel='noopener noreferrer'
                     >
                     {" "}
-                    /in/kadhirus99/
+                    /in/loremus99/
                   </a>
                 ],
                 [
                   <Icon name='facebook' circular />,
                   <a
-                  href='https://www.facebook.com/kadhir1999'
+                  href='https://www.facebook.com/lorem1999'
                   target='_blank'
                   rel='noopener noreferrer'
                   >
                     {" "}
-                    /kadhir1999
+                    /lorem1999
                   </a>
                 ],
-                [<Icon name='instagram' circular />, " _kadhir"],
-                [<Icon name='snapchat ghost' circular />, " kadhirus99"]
+                [<Icon name='instagram' circular />, " _lorem"],
+                [<Icon name='snapchat ghost' circular />, " loremus99"]
               ]}
               noBullets={true}
             />
